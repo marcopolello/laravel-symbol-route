@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: black;
+  text-align: center;
+  header{
+    min-height: 80px;
+    background-color: blue;
+    color: white;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 20px;
+    ul{
+      display: flex;
+      justify-content: center;
+      li{
+        margin: 0 10px;
+        font-size: 20px;
+        list-style: none;
+        a{
+          text-decoration: none;
+          color: white;
+          background-color: green;
+          padding: 6px;
+          border-radius: 15px;
+        }
+      }
+    }
+  }
+  footer{
+    min-height: 80px;
+    background-color: green;
+    color: white;
+  }
+}
+.content{
+  min-height: 200px;
+  background-color: yellow;
+  margin-top: 80px;
+  padding-top: 50px;
+}
